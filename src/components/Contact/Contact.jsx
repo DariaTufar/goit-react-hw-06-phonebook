@@ -47,8 +47,7 @@ export const Contact = ({ id, name, number }) => {
               type="button"
               onClick={handleDelete}
               aria-label="Delete contact">
-              
-              Delete
+                            Delete
             </ButtonDelete>
           </Box>
         </ContactItem>

@@ -30,11 +30,11 @@ let schema = yup.object().shape({
  
 
 export const ContactForm = () => {
-      // console.log("hello")   not working from here
+       
   const dispatch = useDispatch();
 
   const contacts = useSelector(getContacts);
-    //  console.log('hello');
+ 
   const handleSubmit = (values, { resetForm }) => {
     const newContact = {
       name: values.name,
